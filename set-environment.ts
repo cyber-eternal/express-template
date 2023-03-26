@@ -1,7 +1,4 @@
-const REQUIRED_ENV_VARIABLES = [
-  'NODE_ENV',
-  'SERVER_RULE',
-];
+const REQUIRED_ENV_VARIABLES = ['NODE_ENV', 'SERVER_RULE'];
 
 import * as dotenv from 'dotenv';
 
