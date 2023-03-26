@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es2022",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "incremental": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "paths": {
+      "@app/*": [
+        "./app/*",
+      ],
+      "@api/*": [
+        "./app/api/*",
+      ],
+      "@root/*": [
+        "./*",
+      ],
+      "@utils/*": [
+        "./app/utils/*",
+      ],
+      "@services/*": [
+        "./app/services/*",
+      ],
+      "@modules/*": [
+        "./app/modules/*",
+      ]
+    }
+  },
+  "exclude": [
+    "./node_modules/*",
+    "**/*.spec.ts"
+  ]
+}
