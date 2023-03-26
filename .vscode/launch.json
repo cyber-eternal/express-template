@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "nodeVersionHint": 14,
+  "configurations": [
+    {
+      "name": "Listener:run",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "start",
+      ],
+      "cwd": "${workspaceRoot}",
+      "protocol": "inspector",
+      "env": {
+        "SERVER_RULE": "LISTENER",
+        "NODE_TLS_REJECT_UNAUTHORIZED": "1"
+      },
+      "internalConsoleOptions": "openOnSessionStart"
+    }
+  ]
+}
