@@ -35,7 +35,7 @@
     "express": "^4.18.2",
     "lodash": "^4.17.21",
     "luxon": "^3.2.1",
-    "mongoose": "^6.9.1",
+    "mongoose": "^6.12.0",
     "redis": "^4.5.1",
     "reflect-metadata": "^0.1.13",
     "uuid": "^9.0.0"
